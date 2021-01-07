@@ -9,7 +9,7 @@ RanAng.py - Calculates distances from 6500000 random azimuthal and zenith angle 
 
 RanNormPlane.py - Creates a normal plane based on path of neutrino from an azimuthal and zenith angle and shifts the path's intersection point on plane by a random amount within the observatory's dimensions and calculates distance to shifted entry and exit point. This process is repeated 10000 times for every integer azimuthal and zenith angle between 0 and 90 degrees, and outputs a csv entitled "Datapoints.csv" that contains the azimuthal angles, zenith angles, and the average distance per angle. 
 
-The_Graph.ipynb - Reads in the Datapoints.csv file and creates a heat map of distances per angle, saving the resulting image as "10000P_Phi_V_Theta.png"
+The_Graph.ipynb - Reads in the Datapoints.csv file and creates a heat map of distances per angle, saving the resulting image as "10000P_Phi_V_Theta.png" It also highlights the angles that resulted in distances within some arbitrary error from the overall average distance
 
 CSV_Reading.ipynb - Reads in the 1120_m_rand_angs.csv file and explores its properties. It is here that the final average distance between all paths in every azimuthal and zenith angle is given in the fourth cell in the "mean" row and "Length" column.
 
