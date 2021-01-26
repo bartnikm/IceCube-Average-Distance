@@ -87,7 +87,7 @@ for foo in range(0,90):
             theta = bar
         
             ps.append(foo)
-            ts.append(shit)
+            ts.append(bar)
 
             if -max_ang <= phi <= max_ang:
                 if 0 <= theta < 30:
