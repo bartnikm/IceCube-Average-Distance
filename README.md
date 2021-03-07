@@ -16,4 +16,4 @@ CSV_Reading.ipynb - Reads in the 1120_m_rand_angs.csv file and explores its prop
 Other Notes:
 1. All distances are reported in km unless otherwise specified
 2. Zenith Angles of 0 degrees were omitted from calculations due to it creating divide-by-zero errors and due to the fact that a zenith angle of zero degrees would make every measured distance equal to the radius of the observatory.
-3. The Diameter of the IceCube Neutrino Observatory is calculated here to be ~1120 meters. 
+3. The Diameter of the IceCube Neutrino Observatory is estimated here to be ~1.12 kilometers for calculations. 
